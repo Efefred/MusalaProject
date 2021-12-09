@@ -1,0 +1,31 @@
+[
+    {
+        "Name": " ",
+        "Email": "hello@musala.com",
+        "Mobile": "23408001234567",
+        "Expected_Error": "The field is required.",   
+        "Selector": "#wpcf7-f880-o1 > form > p:nth-child(4) > span > span"
+    },
+    {
+        "Name": "Musala Soft",
+        "Email": " ",
+        "Mobile": "23408001234567",
+        "Expected_Error": "The field is required.",   
+        "Selector": "#wpcf7-f880-o1 > form > p:nth-child(5) > span > span"
+    },
+    {
+        "Name": "Musala Soft",
+        "Email": "hello@musala.com",
+        "Mobile": " ",
+        "Expected_Error": "The field is required.",   
+        "Selector": "#wpcf7-f880-o1 > form > p:nth-child(6) > span > span"
+    },
+    {   "Name": "Musala Soft",
+        "Email": "@musala.com",
+        "Mobile": "23408001234567",
+        "Expected_Error": "The e-mail address entered is invalid.",   
+        "Selector": "#wpcf7-f880-o1 > form > p:nth-child(5) > span > span"
+    }    
+
+]
+
