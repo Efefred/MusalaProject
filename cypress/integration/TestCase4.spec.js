@@ -10,9 +10,11 @@ describe('Musala Test', () => {
     it('TestCase4', () => {
 
         cy.visit('/')
+        //Fetch Custom Cypress Commands from ../support/commands.js
         cy.getCareers()
         cy.checkOpenPositions()
-
+        
+        //Get the open positions by city
         cy.get('#content > section > div.inner-wraper > article')
           .find('a')
           .should($a =>{
@@ -21,8 +23,6 @@ describe('Musala Test', () => {
               })
          } )
 
-        //Get Form Fields
-
-        //Assert that the error message, 'The e-mail address entered is invalid.’, is shown 
+        
     }) 
 })

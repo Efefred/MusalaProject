@@ -47,8 +47,7 @@ describe('Musala Test', () => {
         cy.get('.close-form').click({ force: true })
         cy.get('#wpcf7-f880-o1 > form > p:nth-child(4) > span > span')
           .should('have.text', 'The field is required.')
-      
-        
+  
 
     })
 

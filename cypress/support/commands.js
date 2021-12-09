@@ -47,9 +47,7 @@ import 'cypress-file-upload';
             
    })
 
-  // Cypress.Commands.add('filterPositionsBySofia', () => {
-  //   cy.get('#get_location', {timeout: 100000}).select('')
-  //     .and('contain', 'Check our open positions').click()
+
        
 
 
