@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run 'cypress/integration'",
     "cy:run_spec1": "npx cypress run --spec 'cypress/integration/TestCase1.spec.js'",
     "cy:run_spec2": "npx cypress run --spec 'cypress/integration/TestCase2.spec.js'",
     "cy:run_spec3": "npx cypress run --spec 'cypress/integration/TestCase3.spec.js'",
