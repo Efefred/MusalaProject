@@ -18,7 +18,6 @@ import 'cypress-file-upload';
 
   Cypress.Commands.add('verifyLocationAndPosition', () => {
    cy.get('#get_location', {timeout: 100000})
-     //.select('Anywhere') 
      .select(3).should('have.value', 'Anywhere')
    cy.get('#content > section > div.inner-wraper > article:nth-child(2) > div > a > div > div.front > h2')
      .and('contain', 'Experienced Automation QA Engineer').click() 
